@@ -8,3 +8,7 @@
  
  
  After I developed the queries, I designed a Flask API based on the queries. I created three API Static Routes that would output the jsonified precipitation, stations, and temperature data for the last year in the database. Then I created two API Dynamic Route that accepts the start date or start and end date as a parameter from the URL and returns the min, max, and average temperatures calculated from the given start date to the end of the dataset.
+
+
+References
+Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: An overview of the Global Historical Climatology Network-Daily Database. Journal of Atmospheric and Oceanic Technology, 29, 897-910, https://doi.org/10.1175/JTECH-D-11-00103.1 Links to an external site.
